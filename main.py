@@ -92,7 +92,7 @@ if __name__ == "__main__":
 		elif menuSelection == '2':
 			editCategories()
 		elif menuSelection == '3':
-			with open('Readme.txt', 'r') as f:
+			with open('README.md', 'r') as f:
 				print f.read()
 		elif menuSelection == '4':
 			break
